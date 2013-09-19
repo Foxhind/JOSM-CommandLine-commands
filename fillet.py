@@ -60,7 +60,7 @@ def createarc(C, P1, P2, r, segments):
   if segments == 0: # optimal number of segments
     P1P2 = (P2[0]-P1[0], P2[1]-P1[1])
     P1P2abs = math.sqrt(P1P2[0]*P1P2[0] + P1P2[1]*P1P2[1])
-    segments = math.ceil(math.log(P1P2abs, 4) * (math.cos((a2-a1)/2) + 1.5)) # cat's magic formula
+    segments = int(math.ceil(math.log(P1P2abs, 4) * (math.cos((a2-a1)/2) + 1.5))) # cat's magic formula
     
   interval = (a2 - a1) / segments
   for n in range(1, segments):
