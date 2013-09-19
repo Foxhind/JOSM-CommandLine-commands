@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Circle" icon="circle.png" run="python circle.py {Center} {Radius} {Sides}">
+	<parameter required="true" type="point">
+		<name>Center</name>
+		<description>Center of circle</description>
+	</parameter>
+	<parameter required="true" type="length" minvalue="0.1" maxvalue="10000">
+		<name>Radius</name>
+		<description>Radius of circumcircle(m)</description>
+		<value>10</value>
+	</parameter>
+	<parameter required="true" type="natural" minvalue="3" maxvalue="144">
+		<name>Sides</name>
+		<description>Number of sides</description>
+		<value>12</value>
+	</parameter>
+</command>

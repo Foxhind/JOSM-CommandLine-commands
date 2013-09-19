@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Copy" icon="copy.png" run="python move.py {Source point} {Target points} Yes">
+	<parameter required="true" type="any" maxinstances="0">
+		<name>Objects</name>
+		<description>Objects for copying</description>
+	</parameter>
+	<parameter required="true" type="point">
+		<name>Source point</name>
+		<description>Source pivot point</description>
+	</parameter>
+	<parameter required="true" type="point" maxinstances="10">
+		<name>Target points</name>
+		<description>Points to copy to</description>
+	</parameter>
+</command>

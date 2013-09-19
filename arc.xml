@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Arc" icon="arc.png" run="python arc.py {P1},{P2},{P3} {Segments}">
+	<parameter required="true" type="point">
+		<name>P1</name>
+		<description>Start point of arc</description>
+	</parameter>
+	<parameter required="true" type="point">
+		<name>P2</name>
+		<description>Middle point on arc</description>
+	</parameter>
+	<parameter required="true" type="point">
+		<name>P3</name>
+		<description>End point of arc</description>
+	</parameter>
+	<parameter required="true" maxvalue="144" type="natural">
+		<name>Segments</name>
+		<description>Number of segments (0 - auto)</description>
+		<value>5</value>
+	</parameter>
+</command>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Cut" icon="cut.png" run="python cut.py">
+	<parameter required="true" type="way">
+		<name>Way</name>
+		<description>Way to cutting</description>
+	</parameter>
+	<parameter required="true" type="node">
+		<name>Node 1</name>
+		<description>First node in cutting line</description>
+	</parameter>
+	<parameter required="true" type="node">
+		<name>Node 2</name>
+		<description>Second node in cutting line</description>
+	</parameter>
+</command>

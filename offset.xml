@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Offset" icon="offset.png" run="python offset.py {Offset} {Direction} {Copy}">
+	<parameter required="true" type="way">
+		<name>Way</name>
+		<description>Any way</description>
+	</parameter>
+	<parameter required="true" type="length" maxvalue="10000">
+		<name>Offset</name>
+		<description>Offset (m)</description>
+		<value>5</value>
+	</parameter>
+	<parameter required="true" type="relay">
+		<name>Direction</name>
+		<description>Direction</description>
+		<value>Left</value>
+		<value>Right</value>
+		<value>Both</value>
+	</parameter>
+	<parameter required="true" type="relay">
+		<name>Copy</name>
+		<description>Copy</description>
+		<value>Yes</value>
+		<value>No</value>
+	</parameter>
+</command>

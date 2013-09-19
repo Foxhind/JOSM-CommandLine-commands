@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Fillet" icon="fillet.png" run="python fillet.py {Radius} {Segments}">
+	<parameter required="true" type="way">
+		<name>Way</name>
+		<description>Way which contains a target nodes</description>
+	</parameter>
+	<parameter required="true" type="node" maxinstances="0">
+		<name>Nodes</name>
+		<description>Nodes to fillet</description>
+	</parameter>
+	<parameter required="true" minvalue="0.01" type="length">
+		<name>Radius</name>
+		<description>Fillet radius (m)</description>
+		<value>5</value>
+	</parameter>
+	<parameter required="true" maxvalue="144" type="natural">
+		<name>Segments</name>
+		<description>Number of segments (0 - auto)</description>
+		<value>0</value>
+	</parameter>
+</command>

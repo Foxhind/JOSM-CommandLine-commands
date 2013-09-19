@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Bezier" icon="bezier.png" run="python bezier.py {Points} {Segments}">
+	<parameter required="true" type="natural" maxvalue="144">
+		<name>Segments</name>
+		<description>Number of segments (0 - auto)</description>
+		<value>0</value>
+	</parameter>
+	<parameter required="true" type="point" mininstances="2" maxinstances="16">
+		<name>Points</name>
+		<description>Control points</description>
+	</parameter>
+</command>

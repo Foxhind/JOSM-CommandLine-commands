@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Mirror" icon="mirror.png" run="python mirror.py {First point} {Second point} {Copy}">
+	<parameter required="true" type="any" maxinstances="0">
+		<name>Objects</name>
+		<description>Objects for mirroring</description>
+	</parameter>
+	<parameter required="true" type="point">
+		<name>First point</name>
+		<description>First point of mirror line</description>
+	</parameter>
+	<parameter required="true" type="point">
+		<name>Second point</name>
+		<description>Second point of mirror line</description>
+	</parameter>
+	<parameter required="true" type="relay">
+		<name>Copy</name>
+		<description>Copy</description>
+		<value>Yes</value>
+		<value>No</value>
+	</parameter>
+</command>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Regexp" icon="regexp.png" run='python regexp.py "{Search}" "{Replace}" {What}'>
+	<parameter required="true" type="any" maxinstances="0">
+		<name>Objects</name>
+		<description>Any objects to processing</description>
+	</parameter>
+	<parameter required="true" type="string">
+		<name>Search</name>
+		<description>Regular expression to search</description>
+	</parameter>
+    <parameter required="true" type="string">
+		<name>Replace</name>
+		<description>Expression for replace to</description>
+	</parameter>
+    <parameter required="true" type="relay">
+		<name>What</name>
+        <value>Both</value>
+        <value>Tags</value>
+        <value>Values</value>
+		<description>Data to procecssing</description>
+	</parameter>
+</command>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Move" icon="move.png" run="python move.py {First point} {Second point} No">
+	<parameter required="true" type="any" maxinstances="0">
+		<name>Objects</name>
+		<description>Objects for moving</description>
+	</parameter>
+	<parameter required="true" type="point">
+		<name>First point</name>
+		<description>Point to move from</description>
+	</parameter>
+	<parameter required="true" type="point">
+		<name>Second point</name>
+		<description>Point to move to</description>
+	</parameter>
+</command>
