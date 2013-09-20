@@ -44,7 +44,7 @@ def main():
       P1P2 = (P2[0]-P1[0], P2[1]-P1[1])
       P1P2abs = math.sqrt(P1P2[0]*P1P2[0] + P1P2[1]*P1P2[1])
       segments += math.ceil(math.log(P1P2abs, 4)) # cat's magic formula
-  
+    segments=int(segments)
   tData = OsmData()
   wayid = tData.addway()
   step = 1.0 / segments
