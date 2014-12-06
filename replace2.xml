@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Replace2" icon="replace2.png" run="python replace2.py">
+	<parameter required="true" type="way">
+		<name>Ref</name>
+		<description>Reference way</description>
+	</parameter>
+	<parameter required="true" type="way" maxinstances="0">
+		<name>Target</name>
+		<description>Target ways</description>
+	</parameter>
+</command>

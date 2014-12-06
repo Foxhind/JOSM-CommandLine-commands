@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Ellipse" icon="ellipse.png" run="python ellipse.py {Center} {Radius1} {Radius2} {Angle} {Sides}">
+	<parameter required="true" type="point">
+		<name>Center</name>
+		<description>Center of ellipse</description>
+	</parameter>
+	<parameter required="true" type="length" minvalue="0.1" maxvalue="10000">
+		<name>Radius1</name>
+		<description>Semi-major axis(m)</description>
+		<value>15</value>
+	</parameter>
+	<parameter required="true" type="length" minvalue="0.1" maxvalue="10000">
+		<name>Radius2</name>
+		<description>Semi-minor axis(m)</description>
+		<value>10</value>
+	</parameter>
+	<parameter required="true" type="string" minvalue="-360" maxvalue="360">
+		<name>Angle</name>
+		<description>Angle rotation of major axis(deg)</description>
+		<value>0</value>
+	</parameter>
+	<parameter required="true" type="natural" minvalue="3" maxvalue="144">
+		<name>Sides</name>
+		<description>Number of sides</description>
+		<value>12</value>
+	</parameter>
+</command>
