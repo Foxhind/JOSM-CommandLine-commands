@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="TagCalc (experimental)" icon="tagcalc.png" run='python tagcalc.py "{NewTag}" "{Formula}"'>
+	<parameter required="true" type="any" maxinstances="0">
+		<name>Objects</name>
+		<description>Any objects to processing</description>
+	</parameter>
+	<parameter required="true" type="string">
+		<name>NewTag</name>
+		<description>New tag name</description>
+	</parameter>
+	<parameter required="true" type="string">
+		<name>Formula</name>
+		<description>Formula for calculation</description>
+	</parameter>
+</command>

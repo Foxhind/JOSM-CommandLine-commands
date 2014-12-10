@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Implode" icon="implode.png" run="python implode.py">
+	<parameter required="true" type="way" maxinstances="0">
+		<name>Objects</name>
+		<description>Objects to implode</description>
+	</parameter>
+</command>
