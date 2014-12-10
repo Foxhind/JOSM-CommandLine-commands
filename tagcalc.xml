@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<command version="3" name="TagCalc" icon="tagcalc.png" run='python tagcalc.py "{NewTag}" "{Formula}"'>
+<command version="3" name="TagCalc (experimental)" icon="tagcalc.png" run='python tagcalc.py "{NewTag}" "{Formula}"'>
 	<parameter required="true" type="any" maxinstances="0">
 		<name>Objects</name>
 		<description>Any objects to processing</description>

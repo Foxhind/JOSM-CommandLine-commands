@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 #
 #       ellipse.py {Center} {Radius1} {Radius2} {Angle} {Sides}
-#       
+#
+#       Script creates ellipse, specified by center, semi-major and semi-minor axises and rotation angle
+#       Hint: ellipse with 4 sides allows to draw rotated axises
+#
 #       Made from circle.py ( Copyright 2010-2011 Hind <foxhind@gmail.com> )
 #       by OverQuantum, 2014-10-30
 #       bugfix by Vitalts (comma support+spaces), 2014-10-31

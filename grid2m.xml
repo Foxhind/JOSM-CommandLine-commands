@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<command version="3" name="Grid" icon="grid2m.png" run="python grid2m.py {Cell}">
+	<parameter required="true" type="any" maxinstances="0">
+		<name>Escribing</name>
+		<description>Object(s) to cover with grid</description>
+	</parameter>
+	<parameter required="true" type="length" minvalue="0.1" maxvalue="10000">
+		<name>Cell</name>
+		<description>Cell size(m)</description>
+		<value>100</value>
+	</parameter>
+</command>

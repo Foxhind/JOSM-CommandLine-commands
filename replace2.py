@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#       replace2.py - without rotation
+#       replace2.py
+#
+#       Script performs replacing geometry of target objects by reference object with care of existing nodes and tags
+#       This script does not perform rotation of objects, unlike original replace.py
 #     
 #       Copyright 2011 Hind <foxhind@gmail.com>
-#       modified by OverQuantum, 2012-08-05
-#       updated 2012-08-18
-#       fix to 4 spaces indentation 2014-12-06
+#       2012-08-05 modified by OverQuantum for no rotation
+#       2012-08-18 updated from new replace.py
+#       2014-12-06 fix to 4 spaces indentation
 #       
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by

@@ -3,16 +3,19 @@
 #
 #       regexp.py {NewTag} {Formula}
 #       
-#       Made from regexp.py ( Copyright 2011 Hind <foxhind@gmail.com> )
-#       by OverQuantum, 2014-12-06 - 2014-12-09
+#       Script creates new tag on each selected object, tag is calculated by formula,
+#       allowing to concatenate object's tags and some parameters
 #
 #       Formula = [ <fix string> ] [ #tag=<tag># ] [ <fix string> ] [ #p=<param># ] [ <fix string> ]
 #       <tag> - tag name (key) of this object
 #       <param> =    lat / lon / uid / ver / user / chg / nodes / ways / rels
 #       uid - user id; nodes - valid for ways and relations; lat and lon works only for nodes
-#       note: <fix string> should contain "" to have " in result (due to command line interface)
+#       note: <fix string> should contain "" to have " in result (due to interface of CommandLine)
 #
-#       example:  regexp.py "name" "Height #tag=ele#"
+#       Example:  regexp.py "name" "Height #tag=ele#"
+#
+#       Made from regexp.py ( Copyright 2011 Hind <foxhind@gmail.com> )
+#       by OverQuantum, 2014-12-06 - 2014-12-09
 #
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by
