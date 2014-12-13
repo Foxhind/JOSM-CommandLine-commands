@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #       grid2m.py {Cell}
+#           stdin: {EscribingObjects}
 #       
 #       Script creates square grid escribing selected object(s)
 #       (members of selected relations is not counted)
@@ -37,7 +38,7 @@ if sys.version_info[0] < 3:
 
 def main():
     nData = OsmData() # Nodes
-    rData = OsmData() # Escribing way
+    rData = OsmData() # Escribing ways
     nData.read(sys.stdin)
     rData.read(sys.stdin)
     cell = float(sys.argv[1].replace(',', '.')) # cell size, meters
