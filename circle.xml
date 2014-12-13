@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<command version="3" name="Circle" icon="circle.png" run="python circle.py {Center} {Radius} {Sides}">
+<command version="3" name="Circle" icon="circle.png" run="python ellipse.py {Center} {Radius} {Radius} 0 {Sides}">
 	<parameter required="true" type="point">
 		<name>Center</name>
 		<description>Center of circle</description>

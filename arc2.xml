@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<command version="3" name="Arc" icon="arc.png" run="python arc.py {P1},{P2},{P3} {Segments} 0">
+<command version="3" name="Arc with axes" icon="arc2.png" run="python arc.py {P1},{P2},{P3} {Segments} 1">
 	<parameter required="true" type="point">
 		<name>P1</name>
 		<description>Start point of arc</description>

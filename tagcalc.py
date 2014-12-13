@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #       regexp.py {NewTag} {Formula}
+#           stdin: {SelectedObjects}
 #       
 #       Script creates new tag on each selected object, tag is calculated by formula,
 #       allowing to concatenate object's tags and some parameters

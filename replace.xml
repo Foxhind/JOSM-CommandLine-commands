@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<command version="3" name="Replace" icon="replace.png" run="python replace.py">
+<command version="3" name="Replace" icon="replace.png" run="python replace.py 1">
 	<parameter required="true" type="way">
 		<name>Ref</name>
 		<description>Reference way</description>

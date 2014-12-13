@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #       implode.py
+#           stdin: {Ways}
 #       
 #       Script implodes each selected way to a single node (bbox center) which inherits all way's tags
 #
@@ -34,7 +35,7 @@ if sys.version_info[0] < 3:
 
 def main():
     nData = OsmData() # Nodes
-    rData = OsmData() # Reference way
+    rData = OsmData() # Reference ways
     nData.read(sys.stdin)
     rData.read(sys.stdin)
     idn = list(rData.ways.keys())
