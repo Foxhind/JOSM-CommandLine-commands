@@ -9,7 +9,7 @@
 		<description>Radius of circumcircle(m)</description>
 		<value>10</value>
 	</parameter>
-	<parameter required="true" type="natural" minvalue="3" maxvalue="144">
+	<parameter required="true" type="natural" minvalue="3" maxvalue="1024">
 		<name>Sides</name>
 		<description>Number of sides</description>
 		<value>12</value>
